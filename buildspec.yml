@@ -15,7 +15,6 @@ phases:
     commands: 
       - npm i --save-dev @react-native-community/cli
       - npm install -g react-native-cli
-      - npm run build
     
 artifacts:
   files:
