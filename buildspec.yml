@@ -17,7 +17,9 @@ phases:
       - npm install -g react-native-cli
     
 artifacts:
+  type: zip
   files:
-    - 'buildspec.yml'
-  discard-paths: no
-  base-directory: build
+    - README.md
+    - S3.tf
+    - codebuild.tf
+    - pipeline.tf
